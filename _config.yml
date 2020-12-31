@@ -94,11 +94,11 @@ analytics:
 # Site Author
 author:
   name             : "Yeoooo"
-  avatar           : # path of avatar image, e.g. "/assets/images/Nick_me.jpg"
+  avatar           : "/assets/images/Nick_me.jpg"
   bio              : "**아무튼** 해보는게 중요해."
   location         : "Anywhere"
   email            :	"ltbel12@kakao.com"
-  github 		:"yeoooo.github.io"
+  
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -114,7 +114,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com.yeoooo/"
+      # url: "https://github.com/yeoooo/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
