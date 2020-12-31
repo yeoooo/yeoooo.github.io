@@ -97,7 +97,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/Nick_me.jpg"
   bio              : "**아무튼** 해보는게 중요해."
   location         : "Anywhere"
-  email            :	ltbel12@kakao.com
+  email            :	"ltbel12@kakao.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
