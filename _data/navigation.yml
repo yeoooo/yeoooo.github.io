@@ -1,10 +1,11 @@
 # main links
 main:
- - title: "About"
+  - title: "Yeooooo"
     url: https://yeoooo.github.io/about/
-  - title: "Category"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
- 
+  - title: "일상"
+    url: https://yeoooo.github.io/about/
+  - title: "IT"
+    url: https://yeoooo.github.io/about/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
