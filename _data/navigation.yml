@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "일상"
+  - title: "Category"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
