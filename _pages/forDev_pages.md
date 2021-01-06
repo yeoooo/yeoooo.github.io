@@ -1,6 +1,6 @@
 ---
 title: "forDev"
-layout: categories
+layout: categories1
 permalink: /forDev/
 author_profile: true
 ---
