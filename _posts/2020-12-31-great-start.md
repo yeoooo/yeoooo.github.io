@@ -3,9 +3,9 @@ title: "불굴의 시작"
 excerpt: "시 작 !"
 
 categories:
-    -일상
+    일상
 tags:
-    -Blog
+    Blog
 ---
 
 몇 주전 부터 시작 해야겠다고 생각한 깃블로그.<br/>
