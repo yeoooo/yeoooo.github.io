@@ -2,10 +2,12 @@
 main:
   - title: "Yeooooo"
     url: https://yeoooo.github.io/about/
+  - title: "forDev"
+    url: https://yeoooo.github.io/forDev/
   - title: "일상"
     url: https://yeoooo.github.io/일상/
   - title: "IT"
-    url: https://yeoooo.github.io/about/
+    url: https://yeoooo.github.io/ItYeoooo/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
