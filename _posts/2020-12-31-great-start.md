@@ -3,7 +3,7 @@ title: "불굴의 시작"
 excerpt: "시 작 !"
 
 categories:
-    -Blog
+    -일상
 tags:
     -Blog
 ---
