@@ -1,6 +1,6 @@
 ---
 title: "생각"
-layout: categories
+layout: category
 permalink: 일상/생각/
 author_profile: true
 ---
