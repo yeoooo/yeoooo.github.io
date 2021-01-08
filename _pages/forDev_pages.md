@@ -1,6 +1,6 @@
 ---
 title: "공부"
-layout: categories
+layout: category
 permalink: /forDev/
 author_profile: true
 ---
