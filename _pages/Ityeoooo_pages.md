@@ -1,6 +1,6 @@
 ---
 title: "ItYeoooo"
-layout: categories
+layout: category
 permalink: /ItYeoooo/
 author_profile: true
----
+--- 
