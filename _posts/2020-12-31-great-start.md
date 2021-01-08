@@ -4,6 +4,7 @@ excerpt: "시 작 !"
 
 categories:
     일상
+    IT
 tags:
     Blog
 ---
