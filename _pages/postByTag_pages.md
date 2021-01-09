@@ -1,6 +1,6 @@
 ---
 title: "Postings"
 layout: category
-permalink: /footprints/
+permalink: /postings/
 author_profile: true
 ---
