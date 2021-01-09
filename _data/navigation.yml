@@ -1,15 +1,12 @@
 # main links
 main:
-  - title: "Yeooooo"
+  - title: "나"
     url: https://yeoooo.github.io/about/
   - title: "공부"
-    url: https://yeoooo.github.io/forDev/
-  - title: "일상"
-    url: https://yeoooo.github.io/categories/일상/
-  - title: "생각"
-    url: https://yeoooo.github.io/일상/생각/
-  - title: "IT"
-    url: https://yeoooo.github.io/ItYeoooo/
+    url: https://yeoooo.github.io/Devfootprints/
+  - title: "Postings"
+    url: https://yeoooo.github.io/footprints/
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
