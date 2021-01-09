@@ -5,7 +5,7 @@ main:
   - title: "공부"
     url: https://yeoooo.github.io/Devfootprints/
   - title: "Postings"
-    url: https://yeoooo.github.io/#postings/
+    url: https://yeoooo.github.io/categories/#postings/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
