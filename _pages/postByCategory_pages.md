@@ -1,6 +1,6 @@
 ---
 title: "공부"
-layout: category
+layout: categories
 permalink: /Devfootprints/
 author_profile: true
 ---

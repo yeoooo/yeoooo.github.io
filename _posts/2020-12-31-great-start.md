@@ -2,8 +2,8 @@
 title: "불굴의 시작"
 excerpt: "시 작 !"
 
-category:
-    postings
+categories:
+    일상
 tags:
     Blog
 ---

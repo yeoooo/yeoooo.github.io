@@ -3,9 +3,9 @@ main:
   - title: "나"
     url: https://yeoooo.github.io/about/
   - title: "공부"
-    url: https://yeoooo.github.io/Devfootprints/
+    url: https://yeoooo.github.io/공부/
   - title: "Postings"
-    url: https://yeoooo.github.io/categories/#postings/
+    url: https://yeoooo.github.io/일상/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

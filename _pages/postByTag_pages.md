@@ -1,6 +1,6 @@
 ---
 title: "Postings"
-layout: category
-permalink: categories/#postings/
+layout: categories
+permalink: /일상/
 author_profile: true
 ---
