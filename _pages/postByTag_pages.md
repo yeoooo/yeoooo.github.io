@@ -1,6 +1,6 @@
 ---
 title: "Postings"
-layout: categories
+layout: category
 permalink: /footprints/
 author_profile: true
 ---
