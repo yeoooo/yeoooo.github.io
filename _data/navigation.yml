@@ -5,7 +5,7 @@ main:
   - title: "공부"
     url: https://yeoooo.github.io/공부/
   - title: "Postings"
-    url: https://yeoooo.github.io/일상/
+    url: https://yeoooo.github.io/categories/일상/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
