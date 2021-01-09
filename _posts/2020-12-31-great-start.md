@@ -2,10 +2,10 @@
 title: "불굴의 시작"
 excerpt: "시 작 !"
 
-category:
+categories:
     일상
     testing
-    bloggin
+    blogging
 tags:
     Blog
 ---
