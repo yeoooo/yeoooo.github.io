@@ -2,10 +2,9 @@
 main:
   - title: "나"
     url: https://yeoooo.github.io/about/
-  - title: "공부"
-    url: https://yeoooo.github.io/categories/공부/
-  - title: "일상"
-    url: https://yeoooo.github.io/categories/일상/
+  - title: "정리"
+    url: https://yeoooo.github.io/정리/
+  
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
