@@ -4,8 +4,6 @@ excerpt: "시 작 !"
 
 categories:
     일상
-    testing
-    blogging
 tags:
     Blog
 ---
