@@ -1,6 +1,6 @@
 ---
 title: "Postings"
 layout: category
-permalink: /#postings/
+permalink: categories/#postings/
 author_profile: true
 ---
