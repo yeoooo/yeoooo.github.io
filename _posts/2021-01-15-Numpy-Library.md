@@ -8,6 +8,7 @@ tags:
    파이썬
    라이브러리
 toc: true
+comments: true
 ---
 
     
