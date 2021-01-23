@@ -74,29 +74,27 @@ model = keras.models.Sequential
 위 Layer들에 관해서는 따로 자세하게 다루는 것이 좋을 것 같다는 생각이 들었다.  
 이제 __여러개의 Layer로 구성을 마친 모델__  compile( _모델을 학습시키기 위한 학습 과정을 설정하는 단계_ )을 학습시키기 위해 optimizing 해줘야 하는데, 모델을 compile 하는데 필요한 인자들도 잠깐 들여다보면 좋을 것 같다는 생각이 들었다.
 
-- __첫번째 인자. optimizer__  
+  - __첫번째 인자. optimizer__  
 어떤 사람이 높은 산에서 마을 길을 찾아가는데, 길을 찾아가는 방법은 여러가지가 있을 것이다. 그 때 최적의 길을 찾아가는 방법이 최적화라고 볼 수 있다.   
 즉, 모델이 input 값을 최대한 빠르고 정확하게 판단하는 방법을 설정해주는 것이 이 optimizer이다.  
   optimizer에는 정말 많은 종류가 있는데 그중에서도 이를 설명하는 대표적인 '짤'을 통해서 대략적인 모습들을 볼 수 있었다.  
-
 ![Optimizer_summary](https://user-images.githubusercontent.com/71688432/105575314-13094780-5dae-11eb-8e6c-807269f72a2b.jpg)
-<span style = "font-size = 3px">출처 : https://www.slideshare.net/yongho/ss-79607172</span> 
+<span style = "font-size : 13px">출처 :<https://www.slideshare.net/yongho/ss-79607172></span>    
+이 중에서도 adam이 가장 대표적이며 자주 쓰이는 Optimizer로 알려져있다.  
+  
 
-이 중에서도 adam이 가장 대표적이며 자주 쓰이는 Optimizer로 알려져있다.
-
-
-- __두번째 인자. loss__  
+  - __두번째 인자. loss__  
 손실 함수(loss)는 하나의 모델을 컴파일하기 위해 필요한 optimizer와 함께 필요한 매개 변수이다. 이 손실 함수를 통해 얻어낸 loss 값을 통해 실제 정답과 입력된 데이터 사이의 간격을 줄여나가는 것을 목표로 학습된다.  
 이곳에 들어가는 인자로는 _hinge_, _categorical_hinge_, _categorical_crossentropy_ 등이 있다.  
 이에 관해서는 따로 포스팅이 필요할 것 같다.  
-  
-- __세번째 인자. metrics__  
+  - __세번째 인자. metrics__  
 metrics는 훈련과정을 모니터링 하는 방식을 설정할 수 있다. 넣을 수 있는 인자로는 아래와 같이 다섯가지(custom 미포함)가 존재한다.
- 1. _binary_accuracy_  
- 2. _categorical_accuracy_  
- 3. _sparse_categorical_accuracy_  
- 4. _top_k_categorical_accuracy_  
- 5. _sparse_top_k_categorical_accuracy_  
+
+     1. _binary_accuracy_  
+    2. _categorical_accuracy_  
+    3. _sparse_categorical_accuracy_  
+    4. _top_k_categorical_accuracy_  
+    5. _sparse_top_k_categorical_accuracy_  
  
  ----------
 
