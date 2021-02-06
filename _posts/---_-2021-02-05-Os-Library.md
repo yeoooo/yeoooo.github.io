@@ -1,6 +1,6 @@
 ---
-title: "Pandas"
-excerpt: "Pandas 정리"
+title: "Os"
+excerpt: "Os 라이브러리 정리"
 
 categories:
     Python_Library
