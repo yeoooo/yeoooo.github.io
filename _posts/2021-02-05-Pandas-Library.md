@@ -69,7 +69,6 @@ Series, DataFrame을 만드는 함수는 위에서 다루었으니 다른 쓸만
   아래 코드를 통해서 csv파일을 읽어주면, Dataframe을 얻을 수 있다.  
   ```python  
   df = pd.read_csv('csv_url')
-
   ```
 
 ### set_index('dataframe col')  
