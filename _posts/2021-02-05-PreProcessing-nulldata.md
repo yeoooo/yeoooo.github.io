@@ -123,9 +123,7 @@ contact = pd.read_csv(csv_path)
 이번에는 평균 값을 사용해 값을 채워보았다.  
 
   ```python
-    trade.loc[191, '수출금액'] =
-    (contact.loc[188, '수출금액']
-    contact.loc[104, '수출금액'])/2
+    trade.loc[191, '수출금액'] =(contact.loc[188, '수출금액']+contact.loc[104, '수출금액'])/2
     trade.loc[[191]]
   ```
   <img src = "../../../assets/images/Datapreprocessing_replacing.png">  
