@@ -109,7 +109,7 @@ contact = pd.read_csv(csv_path)
     trade[trade.isnull().any(axis=1)]
     ```
     <img src = "../../../assets/images/Datapreprocessing_isnullany.png">
-  </br>
+  
     하지만 191 데이터의 경우 수출금액과 무역수지 두 컬럼에서만 결측치를 갖기 때문에 삭제하기보다는 어떠한 값으로 대체해주는 것이 좋다.  
     
 ### <span style = "color : orange">대체 방법</span>    
