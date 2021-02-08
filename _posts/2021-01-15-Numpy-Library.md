@@ -1,6 +1,6 @@
 ---
-title: "Numpy 정리"
-excerpt: "Numpy"
+title: "Numpy"
+excerpt: "Numpy 정리"
 
 categories:
     Python_Library
@@ -26,7 +26,19 @@ comments: true
   
   
 # Numpy의 함수 정리 노트
-   -----------------------------------------  
+   ----------------------------------------- 
+
+   ## <span style = "font-size : 30px">np.arange(start, stop,(step))</span>  
+   np.arange()는 정수 값 start부터 stop 까지의 수를 array 형태로 반환한다.  
+   step의 명시는 선택적이지만 지정해주지 않는다면 default 값으로 1을 갖는다.   
+   이 메서드의 반환 타입은 array이다.
+   ```python
+   np.arange(10)
+   >>> array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+   np.arange(0,10,3)
+   >>> array([0, 3, 6, 9])
+   ``` 
+
 ## <span style = "font-size : 30px">np.zeros()</span>
 
   기본 행렬을 생성해주는 함수 중 하나.  
