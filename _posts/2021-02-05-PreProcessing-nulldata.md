@@ -3,7 +3,8 @@ title: "Data preprocessing(데이터 전처리)_결측치"
 excerpt: "Preprocessing(전처리)_결측치 정리"
 
 categories:
-    deep_learning, data_preprocessing
+    deep_learning 
+    data_preprocessing
 tags:
     파이썬
     딥러닝
