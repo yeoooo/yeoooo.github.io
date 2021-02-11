@@ -12,7 +12,7 @@ comments: true
 ---
 
 ## 개요  
-matplotlib은 데이터의 그래프를 그리는데에 __요긴하게__ 사용될 수 있다.  
+ 데이터를 시각화 한다면 데이터에서의 이상치나 분석을 하는데 더욱 용이하기 때문에 matplotlib은  __요긴하게__ 사용될 수 있다. 
 함수를 그려주는 라이브러리로는 <span style = "color : orange">MATLAB</span> 또한 존재하는 것으로 알고있는데, 꼭 MATLAB을 써야 하는 상황이 아니라면 matplotlib을 사용한다는 의견이 대다수 였다.  
   
 matplotlib을 사용하기 위해서는 다음과 같이 import를 해줘야한다.  
@@ -111,6 +111,16 @@ plt.plot([1, 2, 3, 5, 6], [1, 3, 5, 10, 18], 'bo')
 ```  
 <img src = "../../assets/images/matplotlib/matplot_bluedotted.png">  
 
+### <span style = "color : orange">title('title name')</span>  
+그래프의 제목을 정해줄 수 있다.  
+
+```python  
+plt.title("cyan diamond graph")
+plt.plot([1,3, 5, 10, 18],[1,2, 3, 5, 6],'cd')
+```  
+
+<img src = "../../assets/images/matplotlib/matplotlib_title.png">
+
 ### <span style = "color : orange">plt.ylabel('labelname')/ plt.xlabel('labelname')</span>  
 
 xlabel, ylabel로 각 축의 이름을 설정해 줄 수 있다.  
@@ -122,4 +132,43 @@ plt.show()
 ```
 <img src = "../../assets/images/matplotlib/matplotlib_x_ylabel.png">  
 
+### <span style = "color : orange">xticks(list), yticks()</span>  
+xticks와 yticks는 x축, y축 별로 원하는 눈금을 그릴 수 있게 한다.  
 
+```python
+plt.plot([1,3, 5, 10, 18],[1,2, 3, 5, 6],'cd')
+plt.plot([2, 3, 6, 10, 18],[2, 4, 6, 10 ,12],'b-')
+plt.xticks([0, 10, 20])
+plt.yticks([1, 5, 10])
+```  
+<img src = "../../assets/images/matplotlib/matplotlib_xyticks.png">
+
+### <span style = "color : orange">bar(x, y)</span>  
+정해놓은 x축 위에 y높이 만큼의 그래프를 그려준다.  
+xticks와 함께 사용하면 보기 좋을 것이라는 생각을 했다.  
+
+```python
+x = np.arange(3)
+counts = ['first', 'second', 'third']
+val = [100, 500, 1000]
+
+plt.bar(x, val)
+plt.xticks(x, counts)
+plt.show()
+```  
+<img src = "../../assets/images/matplotlib/matplotlib_bar.png">  
+
+### <span style = "color : orange">scatter(x, y)</span>  
+plt.scatter(x, y)는 산점도를 그려준다.  
+옵션으로는 마커의 면적을 정해주는 s 옵션, 각 점에 색깔을 부여하는 c 옵션, 투명도를 정해줄 수 있는 alpha 옵션이 있다.  
+
+  
+```python
+N = 30
+x = np.random.rand(N)
+y = np.random.rand(N)
+colors = np.random.rand(N)
+area = (10 * np.random.rand(N))**2
+plt.scatter(x,y, c= colors s = area alpha = 0.1)
+```  
+<img src = "../../assets/images/matplotlib/matplotlib_scatter.png">
