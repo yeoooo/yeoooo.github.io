@@ -50,24 +50,67 @@ plt.plot([1, 3, 5, 10, 18],[1, 2, 3, 5, 6])
 <img src = "../../assets/images/matplotlib/matplotlib_plot3.png">  
 
 #### <span style = "color : orange">Graph colors, line style, markers</span>  
-x,y에 대한 리스트 이외로 세번째 인자를 주서 다른 옵션을 줄 수 있는데, 그 인자의 종류로는 아래가 있다.  
+x,y에 대한 리스트 이외로 세번째 인자를 줘서 다른 옵션을 줄 수 있는데, 그 인자의 종류로는 아래가 있다.  
 
-<strong><span style= "font-size :15px">색상</span></strong>  
+<strong><span style= "font-size :15px">Color</span></strong>  
   
 |Colors|Factor|  
 |:---:|:---:|  
 |<span style = "color:blue">blue</span>|'b'|  
-|green|<span style = "color:green">'g'</span>|  
-|red|<span style = "color:red">'r'</span>|  
-|cyan|<span style = "color:cyan">'c'</span>|  
-|magenta|<span style = "color:magenta">'m'</span>|  
-|yellow|<span style = "color:yellow">'y'</span>|  
-|black|<span style = "color:black">'k'</span>|  
-|white|<span style = "color:white">'w'</span>|  
-그래프의 모양을 실선이 아닌 다른 형식으로도 나타낼 수 있다. 그 중 세번째 인자 값으로 'bo'를 준다면 파란색 원형 마커로 표시된다.
+|<span style = "color:green">green</span>|'g'|    
+|<span style = "color:red">red</span>|'r'|  
+|<span style = "color:cyan">cyan</span>|'c'  
+|<span style = "color:magenta">magenta</span>|'m'|  
+|<span style = "color:yellow">yellow</span>|'y'|  
+|<span style = "color:black">black</span>|'k'|  
+|<span style = "color:white">white</span>|'w'|  
+
+--------------------  
+
+<strong><span style= "font-size :15px">Line Style</span></strong>  
+
+|Description|Factor|  
+|:---:|:---:|  
+|solid line|'-'|  
+|dashed line|'--'|  
+|dash-dot line|'-.'|
+|dotted line|':'|  
+
+--------------------
+<strong><span style= "font-size :15px">Marker</span></strong>  
+
+|Description|Factor|  
+|:---:|:---:|  
+|point marker|'.'|  
+|pixel marker|','|  
+|circle marker|'o'|  
+|triangle_down marker|'v'|  
+|triangle_up marker|'^'|  
+|triangle_left marker|'<'|  
+|triangle_right marker|'>'|  
+|tri_down marker|'1'|  
+|tri_up marker|'2'|  
+|tri_left marker|'3'|  
+|tri_right marker|'4'|  
+|square marker|'s'|  
+|pentagon marker|'p'|  
+|star marker|'*'|  
+|hexagon1 marker|'h'|  
+|hexagon2 marker|'H'|  
+|plus marker|'+'|  
+|x marker|'x'|  
+|diamond marker|'D'|  
+|thin_diamond marker|'d'|  
+|vline marker|'\|'|  
+|hline marker|'_'|  
+  
+  ----------------
+세번째 인자 값으로 'bo'를 준다면 파란색 원형 마커로 표시된다.
 ```python
 plt.plot([1, 2, 3, 5, 6], [1, 3, 5, 10, 18], 'bo')
 ```  
+<img src = "../../assets/images/matplotlib/matplot_bluedotted.png">  
+
 ### <span style = "color : orange">plt.ylabel('labelname')/ plt.xlabel('labelname')</span>  
 
 xlabel, ylabel로 각 축의 이름을 설정해 줄 수 있다.  
