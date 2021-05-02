@@ -292,5 +292,5 @@ defaults:
       share: true
       related: false
   
-  # Math Equation
-  markdown : kramdown
+# Math Equation
+markdown : kramdown
