@@ -291,3 +291,6 @@ defaults:
       comments: false
       share: true
       related: false
+  
+  # Math Equation
+  markdown : kramdown
