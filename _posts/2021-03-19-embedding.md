@@ -3,7 +3,7 @@ title: "Word Embedding"
 excerpt: "Word Embedding 정리"
 
 categories:
-    deep_learning
+    NLP
 tags:
     파이썬
     딥러닝

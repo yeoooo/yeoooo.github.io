@@ -3,7 +3,7 @@ title: "Pandas"
 excerpt: "Pandas 라이브러리 정리"
 
 categories:
-    Python_Library
+    Python
 tags:
     파이썬
     라이브러리

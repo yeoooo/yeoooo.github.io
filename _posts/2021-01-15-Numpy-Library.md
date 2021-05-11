@@ -3,7 +3,7 @@ title: "Numpy"
 excerpt: "Numpy 정리"
 
 categories:
-    Python_Library
+    Python
 tags:
    파이썬
    라이브러리
