@@ -1,6 +1,6 @@
 ---
 title: "백준(2563) 색종이 파이썬"
-excerpt: "2563"
+excerpt: "구현"
 
 categories:
     Algorithm
