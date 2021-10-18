@@ -1,7 +1,6 @@
 ---
-title: "백준(2563) 색종이 파이썬"
+title: "백준[ 2563 \\| Python ] 색종이"
 excerpt: "구현"
-
 categories:
     Algorithm
 tags:

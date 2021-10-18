@@ -20,8 +20,8 @@ title                    : "정리중"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Yeoooo"
-description              : "진짜 아무튼 해봄"
-url                      : # the base hostname & protocol for your site e.g. "https://yeoooo.github.io"
+description              : "열심히 말고 꾸준히"
+url                      : "https://yeoooo.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -96,7 +96,7 @@ author:
   name             : "Yeoooo"
   avatar           : "/assets/images/Nick_me.jpg"
   bio              : "**아무튼** 해보는게 중요해."
-  location         : "Dajeon, Kor"
+  location         : "Daejeon, Kor"
   email            : "ltbel12@kakao.com"
   
   links:
