@@ -1,6 +1,6 @@
 ---
 title: "정리"
 layout: categories
-permalink: /categories/
+permalink: /정리/
 author_profile: true
 ---
