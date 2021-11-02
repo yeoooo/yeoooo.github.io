@@ -26,7 +26,7 @@ comments : true
 여기에 NLP를 함께 생각해보면 __음성__ 을 시각화한 것이 스펙트로그램이라고 생각하면 되겠다.  
 
 아래는 "nineteenth century"를 발음한 스펙트로그램이다.  
-<img src = "../../assets/images/spectrogram/Spectrogram.png">  
+<img alt = "Spectrogram.jpg" src = "../../assets/images/spectrogram/Spectrogram.png">  
   
 그렇다면 스펙트로그램은 어떤 데이터를 그래프에 그릴까?  
 위의 사진을 보면 x축으로는 Time, y축으로는 Frequency, 색에 따른 진폭이 적혀있다. 시간에 따른 주파수를 시각화 했다는 것이다. 
@@ -52,7 +52,7 @@ __"자연어 처리를 하기 위해 어떻게 사람의 목소리를 잡아낼�
 ## Formant(포먼트)  
 사람의 목소리에서 나오는 스펙트럼을 보면  
 
-<img src = "../../assets/images/spectrogram/spectrum.jpg">  
+<img alt = "spectrum.jpg" src = "../../assets/images/spectrogram/spectrum.jpg">  
 <center><span style = "font-size : 10px "> 스펙트럼(x축이 주파수, y축이 진폭이다.)</span></center>  
 
 위 이미지는 어떤 것을 발음 하는게 아니기 때문에 관련은 없지만, 특정 부분에 peak가 존재한다. 이 peak에 해당하는 주파수가 바로 포먼트이고, 곧 성도의 공명주파수라고 한다.  

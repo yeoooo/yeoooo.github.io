@@ -49,13 +49,13 @@ comments : true
 >가장 흔한 정규화로 모든 feature에 대해서 0과 1사이의 값으로 변화시킨다.  Min-Max 정규화 공식은 아래와 같다.  
 
 <p align = "center">
-<img src = "../../assets/images/DataPreprocessing/Normalization/Min_Max.png
+<img alt = "Min_Max.png" src = "../../assets/images/DataPreprocessing/Normalization/Min_Max.png
 "></p>  
 
 Min-Max 정규화는 큰 단점이 있는데, 이상치에 취약하다는 것이다.  
 아래는 100개의 값 중 99개는 0과 40사이에 있고, 1개의 값이 100인 경우를 Min-Max 정규화를 거친 모습이다. 
 <p align = "center" >
-<img src = "../../assets/images/DataPreprocessing/Normalization/min_max_png.png 
+<img alt = "min_max_png.png"src = "../../assets/images/DataPreprocessing/Normalization/min_max_png.png 
 " width = "50%"></p>
   
 y축에 관해서는 정규화가 되었지만 x축에 관해서는 별다른 효과를 보지 못한 모습이다.
@@ -66,7 +66,7 @@ y축에 관해서는 정규화가 되었지만 x축에 관해서는 별다른 �
 >Z-Score 정규화는 Min-Max의 단점인 이상치를 고려한 정규화이다.  정규화 공식은 아래와 같다.  
   
 <p align = "center">
-<img src = "../../assets/images/DataPreprocessing/Normalization/z-score.png
+<img alt = "z-score" src = "../../assets/images/DataPreprocessing/Normalization/z-score.png
 "></p>>
 
 δ는 표준편차, γ는 평균을 뜻한다.  

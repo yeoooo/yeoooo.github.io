@@ -35,19 +35,19 @@ import하는 방법을 알아보았으니 바로 주요 함수에 대해 정리�
 ```python
 plt.plot([1,2,3,4])
 ```  
-<img src = "../../assets/images/matplotlib/matplotlib_plot1.png">  
+<img alt = "matplot1.png" src = "../../assets/images/matplotlib/matplotlib_plot1.png">  
 
 다음은 x 값을 추가해준 코드이다.  
 ```python
 plt.plot([1, 2, 3, 5, 6], [1, 3, 5, 10, 18])
 ```  
-<img src = "../../assets/images/matplotlib/matplotlib_plot2.png">  
+<img alt = "matplot2.png" src = "../../assets/images/matplotlib/matplotlib_plot2.png">  
   
 이해를 돕기 위해 반대로도 적용해 보았다.  
 ```python
 plt.plot([1, 3, 5, 10, 18],[1, 2, 3, 5, 6])
 ```  
-<img src = "../../assets/images/matplotlib/matplotlib_plot3.png">  
+<img alt = "matplot3.png" src = "../../assets/images/matplotlib/matplotlib_plot3.png">  
 
 #### <span style = "color : orange">Graph colors, line style, markers</span>  
 x,y에 대한 리스트 이외로 세번째 인자를 줘서 다른 옵션을 줄 수 있는데, 그 인자의 종류로는 아래가 있다.  
@@ -109,7 +109,7 @@ x,y에 대한 리스트 이외로 세번째 인자를 줘서 다른 옵션을 �
 ```python
 plt.plot([1, 2, 3, 5, 6], [1, 3, 5, 10, 18], 'bo')
 ```  
-<img src = "../../assets/images/matplotlib/matplot_bluedotted.png">  
+<img alt = "matplot_bluedot.png" src = "../../assets/images/matplotlib/matplot_bluedotted.png">  
 
 ### <span style = "color : orange">title('title name')</span>  
 그래프의 제목을 정해줄 수 있다.  
@@ -119,7 +119,7 @@ plt.title("cyan diamond graph")
 plt.plot([1,3, 5, 10, 18],[1,2, 3, 5, 6],'cd')
 ```  
 
-<img src = "../../assets/images/matplotlib/matplotlib_title.png">
+<img alt = "matplot_title.png" src = "../../assets/images/matplotlib/matplotlib_title.png">
 
 ### <span style = "color : orange">plt.ylabel('labelname')/ plt.xlabel('labelname')</span>  
 
@@ -130,7 +130,7 @@ plt.xlabel('X-Axis')
 plt.ylabel('Y-Axis')
 plt.show()
 ```
-<img src = "../../assets/images/matplotlib/matplotlib_x_ylabel.png">  
+<img alt = "matplot_x_ylabel.png" src = "../../assets/images/matplotlib/matplotlib_x_ylabel.png">  
 
 ### <span style = "color : orange">xticks(list), yticks()</span>  
 xticks와 yticks는 x축, y축 별로 원하는 눈금을 그릴 수 있게 한다.  
@@ -141,7 +141,7 @@ plt.plot([2, 3, 6, 10, 18],[2, 4, 6, 10 ,12],'b-')
 plt.xticks([0, 10, 20])
 plt.yticks([1, 5, 10])
 ```  
-<img src = "../../assets/images/matplotlib/matplotlib_xyticks.png">
+<img alt = "xyticks.png" src = "../../assets/images/matplotlib/matplotlib_xyticks.png">
 
 ### <span style = "color : orange">bar(x, y)</span>  
 정해놓은 x축 위에 y높이 만큼의 그래프를 그려준다.  
@@ -156,7 +156,7 @@ plt.bar(x, val)
 plt.xticks(x, counts)
 plt.show()
 ```  
-<img src = "../../assets/images/matplotlib/matplotlib_bar.png">  
+<img alt = "bar.png" src = "../../assets/images/matplotlib/matplotlib_bar.png">  
 
 ### <span style = "color : orange">scatter(x, y)</span>  
 plt.scatter(x, y)는 산점도를 그려준다.  
@@ -171,4 +171,4 @@ colors = np.random.rand(N)
 area = (10 * np.random.rand(N))**2
 plt.scatter(x,y, c= colors s = area alpha = 0.1)
 ```  
-<img src = "../../assets/images/matplotlib/matplotlib_scatter.png">
+<img alt = "scatter.png" src = "../../assets/images/matplotlib/matplotlib_scatter.png">

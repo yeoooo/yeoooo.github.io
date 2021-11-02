@@ -12,7 +12,7 @@ comments: true
 ---
 ## 문제
 <https://www.acmicpc.net/problem/16198>
-<p align = "center"><img src = "../../assets/images/boj/gathering_e.png"></p>
+<p align = "center"><img alt = "boj16198" src = "../../assets/images/boj/gathering_e.png"></p>
 
 ## 시도
 첫 시도는 전형적인 백트래킹으로 선택한 에너지구슬 i의 모든 경우의 수를 뽑고  

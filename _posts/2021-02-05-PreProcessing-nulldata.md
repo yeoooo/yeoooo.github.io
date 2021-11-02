@@ -84,7 +84,7 @@ contact = pd.read_csv(csv_path)
     contact.isnull()  
     ```  
 
-    <img src = "../../../assets/images/DataPreprocessing_nullData/Datapreprocessing_isnull.png">
+    <img alt = "isnull.png" src = "../../../assets/images/DataPreprocessing_nullData/Datapreprocessing_isnull.png">
       
     ```python
    contact = isnull().any(axis = 1)
@@ -109,7 +109,7 @@ contact = pd.read_csv(csv_path)
     ```python
     trade[trade.isnull().any(axis=1)]
     ```
-    <img src = "../../../assets/images/DataPreprocessing_nullData/Datapreprocessing_isnullany.png">
+    <img alt = "isnullany.png" src = "../../../assets/images/DataPreprocessing_nullData/Datapreprocessing_isnullany.png">
   
     하지만 191 데이터의 경우 수출금액과 무역수지 두 컬럼에서만 결측치를 갖기 때문에 삭제하기보다는 어떠한 값으로 대체해주는 것이 좋다.  
     
@@ -127,7 +127,7 @@ contact = pd.read_csv(csv_path)
     trade.loc[191, '수출금액'] =(contact.loc[188, '수출금액']+contact.loc[104, '수출금액'])/2
     trade.loc[[191]]
   ```
-  <img src = "../../../assets/images/DataPreprocessing_nullData/Datapreprocessing_replacing.png">  
+  <img alt = "replacing.png" src = "../../../assets/images/DataPreprocessing_nullData/Datapreprocessing_replacing.png">  
       
   데이터 전처리는 필수적이고, 다양한 방법이 존재하며 그에 따라 효율도 다르다.  
   다음 포스팅에서는 중복 데이터 삭제에 관해서 다룰 것이다.
