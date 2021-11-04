@@ -42,18 +42,13 @@ comments : true
 이 스펙트로그램을 그리기 위해서는 원래 존재하는 파형에 시간에 따른 축으로 변화시키기 위해 Short-Time-Fourier-Transform을 거쳐주면 된다.(STFT는 학부 급에서는 알 필요없고 쓰는 법 정도만 알면된다고 하셨다.. 따로 다뤄야할 만큼 복잡한 내용이기도 하다.)
 
 
-<!-- 
-__"자연어 처리를 하기 위해 어떻게 사람의 목소리를 잡아낼까?"__     
-
-라는 의문 
-
-이런 의문에는 스펙트로그램이 어떤 정보를 내포
--->
 ## Formant(포먼트)  
 사람의 목소리에서 나오는 스펙트럼을 보면  
 
-<img alt = "spectrum.jpg" src = "../../assets/images/spectrogram/spectrum.jpg">  
-<center><span style = "font-size : 10px "> 스펙트럼(x축이 주파수, y축이 진폭이다.)</span></center>  
+<img alt = "spectrum.jpg" src = "../../assets/images/spectrogram/spectrum.jpg">
+<center><span style = "font-size : 12px "> 스펙트럼(x축이 주파수, y축이 진폭이다.)</span></center>  
+<br>
+  
 
 위 이미지는 어떤 것을 발음 하는게 아니기 때문에 관련은 없지만, 특정 부분에 peak가 존재한다. 이 peak에 해당하는 주파수가 바로 포먼트이고, 곧 성도의 공명주파수라고 한다.  
 
