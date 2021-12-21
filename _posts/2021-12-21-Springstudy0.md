@@ -9,7 +9,8 @@ tags:
     백엔드
     배워서바로쓰는스프링프레임워크
 toc: true
-comments : true
+comments: true
+use_math: true
 ---
 
 ## 개요
