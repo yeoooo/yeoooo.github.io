@@ -7,6 +7,7 @@ categories:
 tags:
     프레임워크
     백엔드
+    배워서바로쓰는스프링프레임워크
 toc: true
 comments : true
 ---
@@ -26,7 +27,7 @@ Spring을 배우기에 앞서 Framework에 대한 이해가 먼저 필요하다�
 __프레임워크를 사용하지 않는다면 사소한 기능부터 모두 구현을 해야하고, 그에 따라 많은 시간을 소비하고 그 품질도 보장되기 힘들다.__
 
 ## Spring ?  
-<p align = "center"><img src = "../../assets/images/spring/spring.png"></p>
+<p align = "center"><img src = "../assets/images/spring/spring.png"></p>
 
 <center>
 <div style = "font-size : 10px"><a href= "https://spring.io">HP</a>,
