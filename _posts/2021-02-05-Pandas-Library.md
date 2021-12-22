@@ -32,7 +32,7 @@ df = pd.Series(test)
 df
  
 ```
-<img src = "../../assets/images/pandas_Lib/pandas_series.png">
+<img alt = "pandas_series.png" src = "../../assets/images/pandas_Lib/pandas_series.png">
 
 - ### 2차원 자료구조  
 DataFrame  
@@ -49,7 +49,7 @@ test = {
 df = pd.DataFrame(test)
 df
 ```
-<img src = "../../assets/images/pandas_Lib/pandas_dataframe.png">
+<img alt = "dataframe.png" src = "../../assets/images/pandas_Lib/pandas_dataframe.png">
 
 위의 코드와 다른 방식으로 데이터 프레임을 만들어줄 수 있다.  
 
@@ -61,7 +61,7 @@ test = [[1500, 2000], #이와 같은 방식은 dict형이 아니라 list형으�
 df = pd.DataFrame(test, index = ['2019년', '2020년','2021년'], columns = ['price', 'yield'])
 df
 ```
-<img src = "../../assets/images/pandas_Lib/pandas_dataframe2.png">  
+<img alt = "dataframe2.png" src = "../../assets/images/pandas_Lib/pandas_dataframe2.png">  
 
 
 - ### 3차원 자료구조  
@@ -99,7 +99,7 @@ print(df.head(3))
 ```  
 ### <span style = "color : orange">df.loc[]</span>  
 df.loc 메서드를 사용하면 행, 열의 데이터를 조회할 수 있다. df.loc의 경우는 다른 메서드들과 다르게  
-()(소괄호)를 사용하지 않고 [](대괄호)를 사용한다.  
+()\(소괄호\)를 사용하지 않고 []\(대괄호\)를 사용한다.  
 먼저 행을 조회하려고 한다면 다음과 같이 작성할 수 있다.  
 (이곳에서 사용되는 데이터는 두번째 방법으로 생성한 dataframe을 사용했다.)
 ```python  
@@ -107,13 +107,13 @@ df.loc['2019년']
 ```  
 위와 같이 작성해주면 Series 타입의 출력을 볼 수 있다.  
 
-<img src = "../../assets/images/pandas_Lib/df.loc.png">  
+<img alt = "loc.png" src = "../../assets/images/pandas_Lib/df.loc.png">  
 
 넣어준 index값을 list로 해준다면 Series가 아닌 DataFrame 출력 한다.  
 ```python  
 df.loc[['2019년']]
 ```  
-<img src = "../../assets/images/pandas_Lib/df.loc2.png">  
+<img alt = "loc2.png" src = "../../assets/images/pandas_Lib/df.loc2.png">  
 
 loc안에 들어가는 index 값을 여러개 넣거나, 슬라이딩을 통해서 여러 행을 불러올 수 있다.  
 
@@ -122,12 +122,12 @@ df.loc[['2019년', '2020년', '2021년']]
 df.loc['2019년':'2021년'] #위 코드와 같은 출력을 보여줄 것이다.
                           #하지만 대괄호가 한 번만 들어간다.
 ```
-<img src = "../../assets/images/pandas_Lib/df.loc_Indexing.png">
+<img alt = "loc_indexing.png" src = "../../assets/images/pandas_Lib/df.loc_Indexing.png">
 
 열을 조회하고자 한다면 아래와 같이 앞에 ':'을 붙이고 행을 조회했던 방법과 동일하게 사용해주면 된다.  
 ```python
 df.loc[:, 'yield']#Series 타입 출력
 df.loc[:, ['yield']]#DataFrame 타입 출력
 ```  
-<img src = "../../assets/images/pandas_Lib/df.loc_low.png">  
+<img alt = "loc_low.png" src = "../../assets/images/pandas_Lib/df.loc_low.png">  
   

@@ -1,7 +1,6 @@
 ---
-title: "백준(2563) 색종이 파이썬"
+title: "백준[ 2563 \\| Python ] 색종이"
 excerpt: "구현"
-
 categories:
     Algorithm
 tags:
@@ -11,7 +10,7 @@ comments: true
 ---
 ## 문제  
 <https://www.acmicpc.net/problem/2563>
-<p align = "center"><img src = "../../assets/images/boj/colored_p.png"></p>
+<p align = "center"><img alt = "boj2563" src = "../../assets/images/boj/colored_p.png"></p>
 
 ## 시도
 평소 문제를 풀 때 시간복잡도로 고생을 많이 했던 터라

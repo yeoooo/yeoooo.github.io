@@ -78,7 +78,7 @@ model = keras.models.Sequential
 어떤 사람이 높은 산에서 마을 길을 찾아가는데, 길을 찾아가는 방법은 여러가지가 있을 것이다. 그 때 최적의 길을 찾아가는 방법이 최적화라고 볼 수 있다.   
 즉, 모델이 input 값을 최대한 빠르고 정확하게 판단하는 방법을 설정해주는 것이 이 optimizer이다.  
   optimizer에는 정말 많은 종류가 있는데 그중에서도 이를 설명하는 대표적인 '짤'을 통해서 대략적인 모습들을 볼 수 있었다.  
-<img src = "../../assets/images/ToyProject1/Optimizer_summary.jpg">
+<img alt = "summary.png" src = "../../assets/images/ToyProject1/Optimizer_summary.jpg">
 <span style = "font-size : 13px">출처 :<https://www.slideshare.net/yongho/ss-79607172></span>    
 이 중에서도 adam이 가장 대표적이며 자주 쓰이는 Optimizer로 알려져있다.  
   

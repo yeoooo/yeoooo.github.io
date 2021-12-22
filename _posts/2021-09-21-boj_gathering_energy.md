@@ -1,5 +1,5 @@
 ---
-title: "백준(16198) 에너지모으기 파이썬"
+title: "백준[ 16198 \\| Python ] 에너지모으기 파이썬"
 excerpt: "백트래킹"
 
 categories:
@@ -12,7 +12,7 @@ comments: true
 ---
 ## 문제
 <https://www.acmicpc.net/problem/16198>
-<p align = "center"><img src = "../../assets/images/boj/gathering_e.png"></p>
+<p align = "center"><img alt = "boj16198" src = "../../assets/images/boj/gathering_e.png"></p>
 
 ## 시도
 첫 시도는 전형적인 백트래킹으로 선택한 에너지구슬 i의 모든 경우의 수를 뽑고  
@@ -52,7 +52,7 @@ def backtrack(val):
 backtrack(0)
 print(gathered)
 ```
-## 생각
+## 생각 & 정리
 재귀에 값을 전달해 가면서 stack에 append, pop을 시키는 과정과 비슷하게 문제에 제시 된대로 값을 하나씩 삭제하고, 다시 추가하면서 해결한 풀이였다.  
 "안그래도 val은 원상태로 만들어줘야 할텐데 .." 라는 고민을 했었는데, 그 고민도 말끔하게 해결된 풀이였다.  
 항상 알고리즘 기법을 새로 익히게 되면 편협하게 푸는 버릇이 생기는데 전체를 이해했다면  

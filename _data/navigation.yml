@@ -2,8 +2,10 @@
 main:
   - title: "나"
     url: https://yeoooo.github.io/about/
-  - title: "정리"
-    url: https://yeoooo.github.io/정리/
+  - title: "정리 노트"
+    url: https://yeoooo.github.io/categories/
+  # - title: "일상 노트"
+  #   url: https://yeoooo.github.io/categories/life/
   
 
   # - title: "About"

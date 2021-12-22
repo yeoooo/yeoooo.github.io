@@ -65,26 +65,26 @@ Glove가 있다.
 
 ### CBOW(Continuous Bag of Words)
 주변에 있는 단어들을 가지고 중간에 있는 단어들을 예측한다. 아래 이미지를 통해서 쉽게 이해할 수 있었다.  
-<img src = "../../assets/images/Embedding/CBOW.png">   
+<img alt = "CBOW.png" src = "../../assets/images/Embedding/CBOW.png">   
 
 위의 이미지를 통해 보자면, CBOW가 하는 일은 중심 단어를 예측하기 위해서 임의로 정해준 예측 단어의 범위인 Window를 계속 움직이면서 예측을 한다는 내용의 아주 간략하게 표현한 것이다.  
 방식은 이것으로 충분히 이해가 됐고, 인공신경망에 대한 도식화는 다음과 같다.  
 
-<img src = "../../assets/images/Embedding/CBOW2.png">  
+<img alt = "CBOW2.png" src = "../../assets/images/Embedding/CBOW2.png">  
 
 입력은 원-핫 벡터로 이 벡터에 대해서 W를 곱해서 생겨진 벡터들이 중간에 투사층을 지나 벡터들의 평균을 구한 벡터를 만들게 된다.  
 이 평균 벡터는 두번째 가중치 행렬과 곱해져 다른 원-핫 벡터들과 차원이 동일한 벡터가 나오게 되는데 이에 소프트맥스를 취하면 원소들이 0과 1사이의 값을 갖게 된다. 그리고 이 벡터에 손실 함수 cross-entropy를 사용하면 이미지와 같이 단어가 예측되는 것을 확인 할 수 있다.  
 
-<img src = "../../assets/images/Embedding/CBOW3.png">
+<img alt = "CBOW3.png"src = "../../assets/images/Embedding/CBOW3.png">
 ----------------------------------  
 
 ### Skip-Gram  
-<img src = "../../assets/images/Embedding/skip.png">  
+<img alt = "skip.png" src = "../../assets/images/Embedding/skip.png">  
 
 중간에 있는 단어로 주변 단어들을 예측한다.  
 Skip-Gram의 인공신경망을 도식화하면  
 
-<img src = "../../assets/images/Embedding/skip2.png">  
+<img alt = "skip2.png" src = "../../assets/images/Embedding/skip2.png">  
 
 이와 같은데 위에서의 CBOW와 다르게 훨씬 단순하다.  
 투사층에서 벡터들의 평균을 구하는 과정이 없기 때문이다. Simple is the best라는 말이 새삼 떠오르듯, Skip-gram이 전반적으로 CBOW보다 성능이 좋다고 한다. 
