@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://yeoooo.github.io/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/about/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/%EC%A0%95%EB%A6%AC/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/algorithm/boj_11496_timbers/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/algorithm/boj_4307_ants/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/algorithm/boj_colored_paper/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/algorithm/boj_gathering_energy/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/python/python_memo/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/page2/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/page3/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/page4/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/python/Regex/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/python/Matplotlib-Library/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/python/Pandas-Library/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/python/Numpy-Library/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/nlp/seq2seq/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/nlp/LSTM/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/nlp/Noise_Removing/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/nlp/Spectrogram/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/nlp/embedding/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/data_preprocessing/PreProcessing_normalization/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/deep_learning/data_preprocessing/PreProcessing-nulldata/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/project_review/Toy-Project(RCS)/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/linux/ubuntu-kill-port/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/git/git/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://yeoooo.github.io/memo/memo1/</loc>
+  <lastmod>2021-10-15T08:06:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
