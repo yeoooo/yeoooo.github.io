@@ -1,6 +1,6 @@
 ---
 title: "Spring이란?"
-excerpt: "0주차 스프링파전"
+excerpt: "0주차 스프링 스터디 - 스프링파전"
 
 categories:
     Spring
