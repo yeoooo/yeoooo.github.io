@@ -120,4 +120,4 @@ ApplicationContext가 생성 될 때 먼저 프로토타입 스코프 `prototype
 싱글턴 빈은 ApplicationContext 인스턴스가 생성될 때 단 한 번 생성되는 반면 프로토타입 스코프 빈들은 ApplcationContext의 getBean메서드를 호출한 때 마다 출력되게 되고 스프링컨테이너는 `prototypeA`와 `prototypeB` 인스턴스를 <span class ="o">매번 새로 만들게</span>된다.  
 
 추가적으로 위의 예제를 통해서 프로토타입 빈이 다른 프로토타입 빈에 의존한다면 스프링 컨테이너에 처음 요청한 프로토타입을 요청할 때마다 <span class ="o">새로운 두 프로토타입 인스턴스를 생성</span>한다는 것을 알 수 있었다.
-
+gd
