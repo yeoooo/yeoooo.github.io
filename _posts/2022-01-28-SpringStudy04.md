@@ -1,6 +1,6 @@
 ---
 title: "빈의 초기화와 정리(삭제), 커스텀화"
-excerpt: "5주차 스프링 스터디 - 스프링파전"
+excerpt: "4주차 스프링 스터디 - 스프링파전"
 
 categories:
     Spring
