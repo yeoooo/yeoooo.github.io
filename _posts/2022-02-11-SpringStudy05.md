@@ -1,5 +1,5 @@
 ---
-title: "자바 기반의 컨테이너 설정"
+title: "자바 기반의 빈 설정"
 excerpt: "6주차 스프링 스터디 - 스프링파전"
 
 categories:
