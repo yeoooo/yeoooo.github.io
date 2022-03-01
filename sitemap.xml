@@ -19,7 +19,7 @@ exclude: 'yes'
       {% if post.sitemap.changefreq %}
         <changefreq>{{ post.sitemap.changefreq }}</changefreq>
       {% else %}
-        <changefreq>monthly</changefreq>
+        <changefreq>Weekly</changefreq>
       {% endif %}
       {% if post.sitemap.priority %}
         <priority>{{ post.sitemap.priority }}</priority>
