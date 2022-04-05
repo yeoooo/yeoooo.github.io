@@ -1,5 +1,5 @@
 ---
-title: "생성자 기반 DI와 세터 기반 DI"
+title: "[Spring] 생성자 기반 DI와 세터 기반 DI"
 excerpt: "1주차 스프링 스터디 - 스프링파전"
 
 categories:

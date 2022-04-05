@@ -1,5 +1,5 @@
 ---
-title: "빈 정의 상속"
+title: "[Spring] 빈 정의 상속"
 excerpt: "2주차 스프링 스터디 - 스프링파전"
 
 categories:
