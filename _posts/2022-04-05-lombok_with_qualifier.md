@@ -35,7 +35,7 @@ public class OrderServiceImpl implements OrderService{
 
     private final MemberRepository memberRepository;
     private final @Qualifier("mainDiscountPolicy") DiscountPolicy discountPolicy;
-    //NoUniqueBeanException 발생
+    //NoUniqueBeanDefinitionException 발생
 }
 ```
   
@@ -50,7 +50,14 @@ lombok은 AnnotationProcessor를 통해서 @RequiredArgsConstructor를 인지해
 방법은 아래와 같다.  
   
     1. 프로젝트의 최상위 디렉토리에 lombok.config파일을 생성한다.  
-    2. 생성한 config 파일에 lombok.copyableannotations += org.springframew ork.beans.factory.annotation.Qualifier 를 추가한다.
-    3. Gradle을 reload한다.
+    2. 생성한 config 파일에 lombok.copyablAannotations += org.springframew ork.beans.factory.annotation.Qualifier 를 추가한다.
+    3. gradle cache를 삭제한다.  
 
-이와 같은 방법을 이용해 문제없이 lombok과 @Qualifier을 함께 이용할 수 있게 되었다.
+이와 같은 방법을 이용해 문제없이 lombok과 @Qualifier을 함께 이용할 수 있게 되었다.  
+
+gradle cache는 Intellij 기준으로 아래의 방법으로 삭제할 수 있다.  
+1. <span class = "o">Intellij - File - Invalidate Caches...</span> 선택
+    <p align = "center"><img alt = "gradle_cache.png" src = "../../assets/images/spring/gradle_cache.png"></p>  
+2. <span class = "o">Clear file system cache and Local History</span> 체크 후 <span class = "o">Invalidate and Restart</span> 선택
+    <p align = "center"><img alt = "gradle_cache2.png" src = "../../assets/images/spring/gradle_cache2.png"></p> 
+
