@@ -57,7 +57,8 @@ lombok은 AnnotationProcessor를 통해서 @RequiredArgsConstructor를 인지해
 
 gradle cache는 Intellij 기준으로 아래의 방법으로 삭제할 수 있다.  
 1. <span class = "o">Intellij - File - Invalidate Caches...</span> 선택
-    <p align = "center"><img alt = "gradle_cache.png" src = "../../assets/images/spring/gradle_cache.png"></p>  
+<p align = "center"><img alt = "gradle_cache.png" src = "../../assets/images/spring/gradle_cache.png"></p>  
+    
 2. <span class = "o">Clear file system cache and Local History</span> 체크 후 <span class = "o">Invalidate and Restart</span> 선택
-    <p align = "center"><img alt = "gradle_cache2.png" src = "../../assets/images/spring/gradle_cache2.png"></p> 
+<p align = "center"><img alt = "gradle_cache2.png" src = "../../assets/images/spring/\gradle_cache2.png"></p> 
 
