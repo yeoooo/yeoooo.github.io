@@ -36,7 +36,6 @@ WAS는 WebServer(WAS의 앞단에 위치하게 된다.)와 Web Container를 포�
 클라이언트로부터 요청을 받으면 WebServer가 Web Container의 **Servlet**을 구동시킨다.
 
 Web Container는 DB로부터 데이터를 받아 템플릿 엔진에 뿌려준다.
----
 
 ## Servlet
 
