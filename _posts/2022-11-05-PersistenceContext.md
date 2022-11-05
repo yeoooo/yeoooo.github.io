@@ -1,6 +1,6 @@
 ---
 title: "[JPA] 영속성 컨텍스트와 엔티티 매핑"
-excerpt: "SW Academy 개인 프로젝트"
+excerpt: "영속과 Entity에 관한 정리"
 
 categories:
     JPA
