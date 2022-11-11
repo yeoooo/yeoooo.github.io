@@ -1,5 +1,5 @@
 ---
-title: "[Spring] Spring Security 내부 구조 -1"
+title: "[Spring] Spring Security 내부 구조 1"
 excerpt: "SecurityContext와 내부 구조"
 
 categories:
