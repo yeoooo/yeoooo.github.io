@@ -131,4 +131,6 @@ class BoardRepositoryTest{
 추가로 @Id를 통해서 <span class = "o"> 이미 영속화 된 객체를 사용하기 위해서는 persist가 아닌 merge를 이용</span>해야한다.
 
 ## 참고
-[https://www.inflearn.com/questions/121326]("https://www.inflearn.com/questions/121326")
+<a href = "https://www.inflearn.com/questions/121326">
+https://www.inflearn.com/questions/121326
+</a>
