@@ -2,9 +2,9 @@
 title: 
     "[JPA] detatched entity passed to persist 영속성 에러"
 excerpt: 
-    ""
+    "JPA 영속성 관련 에러"
 category: 
-    JPA,
+    JPA
     Spring
 tags: 
     에러
