@@ -4,10 +4,10 @@ title:
 excerpt: 
     StringBuilder와 StringBuffer 그리고 String에 관한 정리
 category: 
-    java
+    Java
 tags: 
-    java
-    javaLibrary
+    Java
+    JavaLibrary
 toc: 
     true
 comments: 
