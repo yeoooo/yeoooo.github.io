@@ -292,6 +292,8 @@ defaults:
       comments: true
       share: true
       related: true
+      sidebar:
+        nav: sidebar-category
   # _pages
   - scope:
       path: ""

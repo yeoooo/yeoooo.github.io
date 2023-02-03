@@ -3,7 +3,7 @@ title: "Data preprocessing(데이터 전처리) Normalization"
 excerpt: "Preprocessing(전처리) Normalization 정리"
 
 categories:
-    data_preprocessing
+    DataScience
 tags:
     파이썬
     정규화

@@ -4,6 +4,28 @@ main:
     url: https://yeoooo.github.io/about/
   - title: "정리 노트"
     url: https://yeoooo.github.io/categories/
+sidebar-category:
+- title: "CS"
+  children:
+    - title: "Algorithm"
+      url: "/categories/#algorithm"
+- title: "Language"
+  children:
+    - title: "Java"
+      url:  "/categories/#Java"
+    - title: "Python"
+      url:  "/categories/#Python"
+- title: "backend"
+  children:
+    - title: "Spring"
+      url:  "/categories/#Spring"
+    - title: "JPA"
+      url: "/categories/#jpa"
+- title: "Others"
+  url: "/categories/"
+  children:
+    - title: "tools"
+      url:  "/categories/#tools"
   # - title: "일상 노트"
   #   url: https://yeoooo.github.io/categories/life/
   

@@ -5,7 +5,6 @@ excerpt:
     "JPA 영속성 관련 에러"
 category: 
     JPA
-    Spring
 tags: 
     에러
     예외
