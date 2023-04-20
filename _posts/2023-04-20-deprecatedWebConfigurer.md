@@ -21,8 +21,6 @@ use_math: true
     }
 </style>
 
-상태: 진행 중
-
 # 개요
 
 Spring Security를 이용해 로그인 기능을 구현하기로 했다.
