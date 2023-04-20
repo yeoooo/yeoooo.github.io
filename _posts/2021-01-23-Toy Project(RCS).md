@@ -3,7 +3,7 @@ title: "토이 프로젝트 리뷰 1"
 excerpt: "가위, 바위, 보 이미지를 인식하는 토이 프로젝트 이미지 분류기 리뷰 정리"
 
 categories:
-    Project_Review
+    Project
 tags: 
     리뷰
 toc: true
