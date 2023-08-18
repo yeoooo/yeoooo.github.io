@@ -3,7 +3,7 @@ title: "[Spring] 프로필 이미지와 캐시데이터"
 excerpt: "프로필 이미지가 안바껴요"
 
 categories:
-    /backend/spring
+    Spring
 tags:
    
 toc: true
