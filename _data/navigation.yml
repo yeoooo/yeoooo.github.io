@@ -5,6 +5,8 @@ main:
   - title: "정리 노트"
     url: https://yeoooo.github.io/categories/
 sidebar-category:
+- title: "TIL"  
+  url: "/categories/#til"
 - title: "CS"
   children:
     - title: "Algorithm"
@@ -12,13 +14,13 @@ sidebar-category:
 - title: "Language"
   children:
     - title: "Java"
-      url:  "/categories/#Java"
+      url:  "/categories/#java"
     - title: "Python"
-      url:  "/categories/#Python"
+      url:  "/categories/#python"
 - title: "backend"
   children:
     - title: "Spring"
-      url:  "/categories/#Spring"
+      url:  "/categories/#spring"
     - title: "JPA"
       url: "/categories/#jpa"
 - title: "Others"
