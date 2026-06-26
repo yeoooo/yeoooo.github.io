@@ -109,12 +109,12 @@ author:
   avatar           : "/assets/images/Nick_me.jpg"
   bio              : "**아무튼** 해보는게 중요해."
   location         : "Seoul, Kor"
-  email            : "ltbel12@kakao.com"
+  email            : "devyeoooo@gmail.com"
   
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      #url: "mailto:ltbel12@kakao.com"
+      #url: "mailto:devyeoooo@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
