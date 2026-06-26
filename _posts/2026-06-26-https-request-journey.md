@@ -16,9 +16,9 @@ use_math: false
 ---
 
 <style type = 'text/css'>
-    .o{
-    font-weight: bold;
-    color:orange;
+    .highlight-red{
+    color: rgba(207, 81, 72, 1);
+    background-color: transparent;
     }
 </style>
 
@@ -49,20 +49,30 @@ use_math: false
 
 ![HTTPS 요청의 전체 여정](/assets/images/web/https-request-journey.png)
 
-1. DNS
-주소 문자열은 사람이 이해하기 쉬운 형태다. 실제 요청은 IP를 통해서만 가능하다.
-    - 1-1. 브라우저에 주소를 입력하면, 브라우저는 가장 먼저 브라우저 캐시를 확인한다.
-    - 1-2. 브라우저에 없는 경우 운영체제의 DNS 캐시를 확인한다.
-    - 1-3. 운영체제의 DNS 캐시에도 존재하지 않는 경우 DNS Resolver(KT, SKT .. etc)에 질의한다.
-        - 1-3-1. DNS resolver 에 캐시가 존재하는 경우 반환한다.
-        - 1-3-2. DNS Resolver에 캐시가 존재하지 않는 경우 Root → TLD → Authoriatative 순으로 조회한다.
-    - 1-4. DNS Resolver는 결과를 캐싱하고 브라우저에게 IP를 반환한다.
-2. TCP 연결 - 3 Way Handshake
-    - 2-1. 클라이언트 (브라우저 등) 는 서버에  TCP 연결을 요청한다.(SYN)
-    - 2-2. 서버는 연결 가능한 상태임을 알리며 클라이언트 또한 연결 가능한 상태인지 응답을 기다린다. (SYN + ACK)
-    - 2-3. 클라이언트는 연결 가능한 상태임을 서버에 알린다.(ACK)
-3. <a href="#tls"><span class="o">TLS</span></a> (서버 인증 및 Session Key 생성)
-4. HTTP를 Session Key로 암호화, 복호화하여 통신
+<ol>
+    <li>DNS <br/>주소 문자열은 사람이 이해하기 쉬운 형태다. 실제 요청은 IP를 통해서만 가능하다.
+        <ol type="a">
+            <li>브라우저에 주소를 입력하면, 브라우저는 가장 먼저 브라우저 캐시를 확인한다.</li>
+            <li>브라우저에 없는 경우 운영체제의 DNS 캐시를 확인한다.</li>
+            <li>운영체제의 DNS 캐시에도 존재하지 않는 경우 DNS Resolver(KT, SKT .. etc)에 질의한다.
+                <ol type="i">
+                    <li>DNS resolver 에 캐시가 존재하는 경우 반환한다.</li>
+                    <li>DNS Resolver에 캐시가 존재하지 않는 경우 Root → TLD → Authoriatative 순으로 조회한다.</li>
+                </ol>
+            </li>
+            <li>DNS Resolver는 결과를 캐싱하고 브라우저에게 IP를 반환한다.</li>
+        </ol>
+    </li>
+    <li>TCP 연결 - 3 Way Handshake
+        <ol type="a">
+            <li>클라이언트 (브라우저 등) 는 서버에  TCP 연결을 요청한다.(SYN)</li>
+            <li>서버는 연결 가능한 상태임을 알리며 클라이언트 또한 연결 가능한 상태인지 응답을 기다린다. (SYN + ACK)</li>
+            <li>클라이언트는 연결 가능한 상태임을 서버에 알린다.(ACK)</li>
+        </ol>
+    </li>
+    <li><strong><a href="#tls">TLS </a></strong><mark class="highlight-red"><strong>(서버 인증 및 Session Key 생성)</strong></mark></li>
+    <li>HTTP를 Session Key로 암호화, 복호화하여 통신</li>
+</ol>
 
 ## TLS
 
@@ -80,29 +90,31 @@ use_math: false
     - 서버 공개키 포함
 4. 브라우저가 인증서를 검증
     - Root CA 공개키(브라우저, 또는 클라이언트가 이미 가지고 있는 공개키)로 전자서명 검증
-    - 검증 성공 시 서버 공개키를 신뢰
-5. TLS 1.2 / TLS 1.3 에 따라 다른 Session Key(AES Key) 생성
+    - 검증 성공 시 <mark class="highlight-red">서버 공개키를 신뢰</mark>
+5. TLS 1.2 / TLS 1.3 에 따라 다른 <mark class="highlight-red">Session Key(AES Key)</mark> 생성
     - 최근 대부분의 TLS 는 1.3 을 사용한다.
-    서버의 개인키가 한번이라도 노출 되는 경우 과거 모든 데이터의 복호화가 가능한 단점 때문에 순방향 비밀성이 보장되지 않기 때문이다.
+    서버의 개인키가 한번이라도 노출 되는 경우 과거 모든 데이터의 복호화가 가능한 단점 때문에 <mark class="highlight-red">순방향 비밀성</mark>이 보장되지 않기 때문이다.
 
 ### TLS 1.2(RSA)
 
-1. 클라이언트(브라우저 등)가 Pre-Master Secret 생성
-2. 클라이언트가 Pre-Master Secret을 서버 공개키로 암호화하여 ClientKeyExchange로 전송
-3. 서버는 서버 개인키로 복호화하여 Pre-Master Secret 획득
+1. 클라이언트(브라우저 등)가 <mark class="highlight-red">Pre-Master Secret</mark> 생성
+2. 클라이언트가 Pre-Master Secret을 <mark class="highlight-red">서버 공개키로 암호화</mark>하여 ClientKeyExchange로 전송
+3. 서버는 <mark class="highlight-red">서버 개인키로 복호화</mark>하여 Pre-Master Secret 획득
 4. 서버와 클라이언트 양쪽 모두
-Client Random + Server Random + Pre-Master Secret을 통해 Master Secret 생성
-5. Master Secret을 통해 Session Key 생성
+Client Random + Server Random + Pre-Master Secret을 통해 <mark class="highlight-red">Master Secret </mark>생성
+5. Master Secret을 통해 <mark class="highlight-red">Session Key</mark> 생성
 
 **서버의 개인키가 한번이라도 노출된다면 과거 네트워크의 정보들이 모두 복호화 가능하다는 치명적인 단점이 존재했다.**
 
-### TLS 1.3(<span class="o">ECDHE</span>)
+### TLS 1.3(**ECDHE**)
 
 1. 클라이언트와 서버는 임시 개인키/공개키를 생성한다.
-2. 클라이언트와 서버는 서로 임시 공개키를 교환한다.
-3. 각자의 조합을 통해 AES 대칭키(Session Key)를 만들어 낸다
-    - 3-1. 서버 - 서버 임시 개인키 + 클라이언트 임시 공개키
-    - 3-2. 클라이언트 - 클라이언트 임시 개인키 + 서버 임시 공개키
+2. 클라이언트와 서버는 <mark class="highlight-red">서로 임시 공개키를 교환</mark>한다.
+3. 각자의 조합을 통해 <mark class="highlight-red">AES 대칭키(Session Key)</mark>를 만들어 낸다
+    <ol type="a">
+        <li>서버 - 서버 임시 개인키 + 클라이언트 임시 공개키</li>
+        <li>클라이언트 - 클라이언트 임시 개인키 + 서버 임시 공개키</li>
+    </ol>
 
 **이렇게 만들어진 세션 키는 그 과정에서 네트워크를 통해 전송될 필요가 없으며 또한 네트워크  왕복이 감소되어 연결지연성이 개선된다는 장점이 존재한다.**
 
